@@ -9,8 +9,19 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import styled from "styled-components"
+
+import Typography from "@material-ui/core/Typography"
+
 import Header from "./header"
 import "./layout.css"
+
+const Footer = styled.footer`
+  height: 89px;
+  text-align: center;
+  padding-top: 29px;
+  text-transform: none;
+`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,17 +40,15 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <Footer>
+          <Typography variant="h6">
+            {new Date().getFullYear()} Margaret Wong. All rights reserved.
+          </Typography>
+        </Footer>
       </div>
     </>
   )
