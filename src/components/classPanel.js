@@ -51,10 +51,10 @@ const ClassPanel = ({ index, title, desc, cover, buttons }) => (
             {title}
           </PanelContentTitle>
           <PanelContentDesc variant="h6">{desc}</PanelContentDesc>
-          {buttons.map(({ label, path }) => (
-            <PanelFabWrapper key={label}>
+          {buttons.map(({ title, path }) => (
+            <PanelFabWrapper key={title}>
               <PanelFab variant="extended">
-                <Typography variant="h5">{label}</Typography>
+                <Typography variant="h5">{title}</Typography>
               </PanelFab>
             </PanelFabWrapper>
           ))}
