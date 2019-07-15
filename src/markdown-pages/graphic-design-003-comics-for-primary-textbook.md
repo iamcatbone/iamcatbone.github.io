@@ -2,6 +2,10 @@
 path: "/graphic-design/comics-for-primary-textbook"
 title: "Comics for Primary Textbook"
 date: "September 2018"
+mediaType: "carousell-image"
+mediaSrcList:
+    - "/graphic-design/003/media/001.jpg"
+    - "/graphic-design/003/media/002.jpeg"
 ---
 
 ## A Comic about Copyright

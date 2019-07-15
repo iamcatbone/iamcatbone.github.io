@@ -2,6 +2,8 @@
 path: "/illustrations/a-little-raccoon-and-the-color-pencils"
 title: "Business Card Design"
 date: "September 2018"
+mediaType: "single-image"
+mediaSrc: "/illustrations/002/media.png"
 ---
 
 The paper looks shiny in a dark place. It seems that with paper and colour pencils, we can find magic. At the same time, the little raccoon holds its hands firmly on the paper. The message behind this illustration is that doing art/ design is the only thing glowing in my heart, like how it is in my heart when I was young, even after I have grown up. Most importantly, I am not going to give up no matter what.

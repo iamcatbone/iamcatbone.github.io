@@ -2,6 +2,8 @@
 path: "/graphic-design/an-isometric-plane-for-game-starting-page"
 title: "An Isometric Plane for Game Starting Page"
 date: "November 2018"
+mediaType: "single-image"
+mediaSrc: "/graphic-design/002/media.png"
 ---
 
 It has been a trend to create graphic design or game graphics in an isometric view. I had never worked on an isometric design. Thus, I made an isometric plane as the starting page of a game in my spare time.

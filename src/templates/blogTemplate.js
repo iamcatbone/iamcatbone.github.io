@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 
+import BlogMedia from "../components/blogMedia"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -46,18 +47,7 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        {frontmatter.mediaType === "single-image" && (
-          <img
-            src={frontmatter.mediaSrc}
-            alt={frontmatter.title}
-            style={{
-              marginLeft: "15%",
-              marginRight: "15%",
-              width: "70%",
-              objectFit: "cover",
-            }}
-          />
-        )}
+        <BlogMedia {...frontmatter} />
       </BlogBodyWrapper>
     </Layout>
   )
@@ -74,6 +64,7 @@ export const pageQuery = graphql`
         banner
         mediaType
         mediaSrc
+        mediaSrcList
       }
     }
   }
