@@ -79,7 +79,7 @@ module.exports = {
         buttons: [
           {
             title: "My Sketches",
-            path: "/",
+            path: "/sketches",
           },
         ],
       },
@@ -93,56 +93,66 @@ module.exports = {
           {
             title: "PRURookies Internal Training App",
             time: "April - June 2019",
-            thumbnail:
-              "/ui-ux-design/uiux-design-work-prurookies-display-02.png",
+            thumbnail: "/ui-ux-design/001/cover.png",
+            path: "/ui-ux-design/prurookies-internal-training-app",
           },
           {
             title: "Hong Kong Land Limited e-Board Game Project",
             time: "January - May 2019",
-            thumbnail: "/ui-ux-design/uiux-design-work-hkl-display-01.png",
+            thumbnail: "/ui-ux-design/002/cover.png",
+            path: "/ui-ux-design/hong-kong-land-limited-e-board-game-project",
           },
           {
             title: "Yoga Class Finding App",
             time: "January 2019",
             thumbnail: "/ui-ux-design/uiux-design-work-yoga-app-display-03.png",
+            path: "/ui-ux-design/yoga-class-finding-app",
           },
           {
             title: "Drink Ordering App",
             time: "January 2019",
             thumbnail:
               "/ui-ux-design/uiux-design-work-drink-ordering-display-01.png",
+            path: "/ui-ux-design/a-drinking-ordering-app",
           },
           {
             title: "Shiseido E-card platform",
             time: "November 2018",
             thumbnail: "/ui-ux-design/uiux-design-work-shiseido-e-card-02.png",
+            path: "/ui-ux-design/shiseido-e-card-platform",
           },
           {
             title: "UI of Login Page for FSEE Limited",
             time: "November 2018",
             thumbnail: "/ui-ux-design/uiux-design-work-2-pages-with-bg.png",
+            path: "/ui-ux-design/ui-of-login-page-for-fsee-limited",
           },
           {
-            title: "Mini-game UI: The Taoist Spell",
+            title: "Mini-Game UI: The Taoist Spell",
             time: "June 2018",
             thumbnail: "/ui-ux-design/uiux-design-work-spell.png",
+            path: "/ui-ux-design/mini-game-ui-the-taoist-spell",
           },
           {
-            title: "Mini-game UI: Shaolin Kung Fu",
+            title: "Mini-Game UI: Shaolin Kung Fu",
             time: "May 2018",
             thumbnail:
               "/ui-ux-design/uiux-design-work-shaolinkungfu-display2.png",
+            path: "/ui-ux-design/mini-game-ui-shaolin-kung-fu",
           },
           {
-            title: "Mini game UI: Game for Elderlies with Alzhemier's Disease",
+            title: "Mini-Game UI: Game for Elderlies with Alzheimer's Disease",
             time: "August 2017",
             thumbnail: "/ui-ux-design/uiux-design-work-mindvividui.png",
+            path:
+              "/ui-ux-design/mini-game-ui-game-for-elderlies-with-alzheimer-disease",
           },
           {
-            title: "Mini-game: Computer Ranger",
+            title: "Mini-Game UI: Computer Rangers",
             time: "May 2019",
             thumbnail:
               "/ui-ux-design/uiux-design-work-computer-rangerdemo-3.png",
+            path: "/ui-ux-design/mini-game-ui-game-computer-rangers",
           },
         ],
       },
@@ -154,30 +164,32 @@ module.exports = {
           {
             title: "Business Card Design",
             time: "June 2019",
-            thumbnail:
-              "/graphic-design/graphic-design-works-drink-ordering-display2-03.png",
+            thumbnail: "/graphic-design/001/cover.png",
+            path: "/graphic-design/business-card-design",
           },
           {
             title: "An Isometric Plane for Game Starting Page",
-            time: "April - June 2019",
-            thumbnail:
-              "/graphic-design/graphic-design-works-nightisometric-01.png",
+            time: "November 2018",
+            thumbnail: "/graphic-design/002/cover.png",
+            path: "/graphic-design/an-isometric-plane-for-game-starting-page",
           },
           {
             title: "Comics for primary textbook",
-            time: "April - June 2019",
-            thumbnail: "/graphic-design/graphic-design-works-copy-right.png",
+            time: "September 2018",
+            thumbnail: "/graphic-design/003/cover.png",
+            path: "/graphic-design/comics-for-primary-textbook",
           },
           {
             title: "An animation to Introduce what is internet",
-            time: "April - June 2019",
-            thumbnail:
-              "/graphic-design/graphic-design-works-screenshot-2019-01-12-at-64025-pm.png",
+            time: "April 2018",
+            thumbnail: "/graphic-design/004/cover.png",
+            path: "/graphic-design/an-animation-to-introduce-what-is-internet",
           },
           {
             title: "A wallpaper for iphone 6plus",
-            time: "April - June 2019",
-            thumbnail: "/graphic-design/graphic-design-works-wallpaper-01.png",
+            time: "May 2017",
+            thumbnail: "/graphic-design/005/cover.png",
+            path: "/graphic-design/a-wallpaper-for-iphone-6plus",
           },
         ],
       },
@@ -188,30 +200,62 @@ module.exports = {
           {
             title: "A Colorful Cat",
             time: "June 2019",
-            thumbnail:
-              "/graphic-design/graphic-design-works-drink-ordering-display2-03.png",
+            thumbnail: "/illustrations/001/cover.png",
+            path: "/illustrations/a-colorful-cat",
           },
           {
             title: "A Little Raccoon and the Color Pencils",
             time: "September 2018",
-            thumbnail:
-              "/graphic-design/graphic-design-works-nightisometric-01.png",
+            thumbnail: "/illustrations/002/cover.png",
+            path: "/illustrations/a-little-raccoon-and-the-color-pencils",
           },
           {
             title: "The Dreaming Cat",
             time: "August 2018",
-            thumbnail: "/graphic-design/graphic-design-works-copy-right.png",
+            thumbnail: "/illustrations/003/cover.png",
+            path: "/illustrations/the-dreaming-cat",
           },
           {
             title: "The Nishikigoi",
             time: "January 2017",
-            thumbnail:
-              "/graphic-design/graphic-design-works-screenshot-2019-01-12-at-64025-pm.png",
+            thumbnail: "/illustrations/004/cover.png",
+            path: "/illustrations/the-nishikigoi",
           },
           {
             title: "Telegram Stickers of Identity V Characters",
             time: "June 2019",
-            thumbnail: "/graphic-design/graphic-design-works-wallpaper-01.png",
+            thumbnail: "/illustrations/005/cover.png",
+            path: "/illustrations/telegram-stickers-of-identity-v-characters",
+          },
+        ],
+      },
+      sketches: {
+        headline: "Sketches",
+        desc: "I enjoy sketching the details of different objects/ animals.",
+        works: [
+          {
+            title: "A Dog",
+            time: "2015",
+            thumbnail: "/sketches/004/cover.png",
+            path: "/sketches/a-dog",
+          },
+          {
+            title: "An Eagle",
+            time: "2017",
+            thumbnail: "/sketches/003/cover.png",
+            path: "/sketches/an-eagle",
+          },
+          {
+            title: "A Pomegranate",
+            time: "2017",
+            thumbnail: "/sketches/001/cover.png",
+            path: "/sketches/a-pomegranate",
+          },
+          {
+            title: "An Orange",
+            time: "2017",
+            thumbnail: "/sketches/002/cover.png",
+            path: "/sketches/an-orange",
           },
         ],
       },

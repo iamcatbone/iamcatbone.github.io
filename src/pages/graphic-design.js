@@ -16,6 +16,7 @@ const Page = () => {
                 title
                 time
                 thumbnail
+                path
               }
             }
           }

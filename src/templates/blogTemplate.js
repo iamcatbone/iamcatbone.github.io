@@ -20,12 +20,17 @@ export default function Template({
   return (
     <Layout>
       <SEO title={frontmatter.title} />
-      {frontmatter.banner && (
+      {frontmatter.banner ? (
         <img
           src={frontmatter.banner}
           alt={frontmatter.title}
           style={{ width: "100%", height: 450, objectFit: "cover" }}
         />
+      ) : (
+        <div>
+          <br />
+          <br />
+        </div>
       )}
       <BlogBodyWrapper>
         <Typography variant="h4" gutterBottom>
@@ -34,9 +39,6 @@ export default function Template({
         <Typography variant="h6" gutterBottom style={{ color: "#bdbdbd" }}>
           {frontmatter.date}
         </Typography>
-        <Typography variant="subtitle1" gutterBottom>
-          {frontmatter.desc}
-        </Typography>
         <br />
         <Typography
           variant="subtitle1"
@@ -44,6 +46,18 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        {frontmatter.mediaType === "single-image" && (
+          <img
+            src={frontmatter.mediaSrc}
+            alt={frontmatter.title}
+            style={{
+              marginLeft: "15%",
+              marginRight: "15%",
+              width: "70%",
+              objectFit: "cover",
+            }}
+          />
+        )}
       </BlogBodyWrapper>
     </Layout>
   )
@@ -58,7 +72,8 @@ export const pageQuery = graphql`
         title
         date
         banner
-        desc
+        mediaType
+        mediaSrc
       }
     }
   }

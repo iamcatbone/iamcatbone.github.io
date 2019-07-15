@@ -1,6 +1,7 @@
 import Fab from "@material-ui/core/Fab"
 import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
+import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 
@@ -37,6 +38,11 @@ const PanelFab = styled(Fab)`
   width: 380px !important;
 `
 
+const PanelLink = styled(Link)`
+  color: black !important;
+  text-decoration: none !important;
+`
+
 const ClassPanel = ({ index, title, desc, cover, buttons }) => (
   <PanelContainer index={index}>
     <Grid container spacing={3}>
@@ -53,9 +59,11 @@ const ClassPanel = ({ index, title, desc, cover, buttons }) => (
           <PanelContentDesc variant="h6">{desc}</PanelContentDesc>
           {buttons.map(({ title, path }) => (
             <PanelFabWrapper key={title}>
-              <PanelFab variant="extended">
-                <Typography variant="h5">{title}</Typography>
-              </PanelFab>
+              <PanelLink to={path}>
+                <PanelFab variant="extended">
+                  <Typography variant="h5">{title}</Typography>
+                </PanelFab>
+              </PanelLink>
             </PanelFabWrapper>
           ))}
         </PanelContentGrid>
