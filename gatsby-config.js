@@ -28,7 +28,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/portfolio-logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -91,7 +91,7 @@ module.exports = {
           "I enjoy the process of making something that is both practical and aesthetically pleasing.",
         works: [
           {
-            title: "PRURookies Internal Training App",
+            title: "PRURookies Training App",
             time: "April - June 2019",
             thumbnail: "/ui-ux-design/001/cover.png",
             path: "/ui-ux-design/prurookies-internal-training-app",
@@ -174,19 +174,19 @@ module.exports = {
             path: "/graphic-design/an-isometric-plane-for-game-starting-page",
           },
           {
-            title: "Comics for primary textbook",
+            title: "Comics for Primary Textbook",
             time: "September 2018",
             thumbnail: "/graphic-design/003/cover.png",
             path: "/graphic-design/comics-for-primary-textbook",
           },
           {
-            title: "An animation to Introduce what is internet",
+            title: "An Animation to Introduce What is Internet",
             time: "April 2018",
             thumbnail: "/graphic-design/004/cover.png",
             path: "/graphic-design/an-animation-to-introduce-what-is-internet",
           },
           {
-            title: "A wallpaper for iphone 6plus",
+            title: "A Wallpaper for Iphone 6plus",
             time: "May 2017",
             thumbnail: "/graphic-design/005/cover.png",
             path: "/graphic-design/a-wallpaper-for-iphone-6plus",

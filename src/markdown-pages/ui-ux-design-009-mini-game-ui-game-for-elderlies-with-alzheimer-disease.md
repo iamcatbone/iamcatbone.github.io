@@ -3,6 +3,11 @@ path: "/ui-ux-design/mini-game-ui-game-for-elderlies-with-alzheimer-disease"
 title: "Mini-Game UI: Game for Elderlies with Alzheimer's Disease"
 date: "August 2017"
 banner: "/ui-ux-design/009/banner.jpg"
+mediaType: "carousell-image"
+mediaSrcList:
+    - "/ui-ux-design/009/media/001.png"
+    - "/ui-ux-design/009/media/002.png"
+    - "/ui-ux-design/009/media/003.png"
 ---
 
 This is a matching game designed for elderly people with Alzheimer’s Disease. Due to the disease, their short term memory decline over time. It is known that keep training their brain can somehow slow down the process. On the other hand, many elderlies pet cats at their home, and thus, I think they will find a game with cats as the theme familiar. That’s why I had an idea of making this game.

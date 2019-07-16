@@ -1,8 +1,20 @@
 ---
 path: "/ui-ux-design/prurookies-internal-training-app"
-title: "PRURookies Internal Training App"
+title: "PRURookies Training App"
 date: "April - June 2019"
 banner: "/ui-ux-design/001/banner.jpg"
+mediaType: "carousell-image"
+mediaSrcList:
+    - "/ui-ux-design/001/media/001.jpg"
+    - "/ui-ux-design/001/media/002.jpg"
+    - "/ui-ux-design/001/media/003.jpg"
+    - "/ui-ux-design/001/media/004.jpg"
+    - "/ui-ux-design/001/media/005.jpg"
+    - "/ui-ux-design/001/media/006.jpg"
+    - "/ui-ux-design/001/media/007.jpg"
+    - "/ui-ux-design/001/media/008.jpg"
+    - "/ui-ux-design/001/media/009.jpg"
+    - "/ui-ux-design/001/media/010.jpg"
 ---
 
 This is an iPad app designed for Prudential Limited Hong Kong for the purpose of internal training.

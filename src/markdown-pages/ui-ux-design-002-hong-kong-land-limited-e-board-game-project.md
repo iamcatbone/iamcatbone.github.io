@@ -3,20 +3,31 @@ path: "/ui-ux-design/hong-kong-land-limited-e-board-game-project"
 title: "Hong Kong Land e-Board Game Project"
 date: "January - May 2019"
 banner: "/ui-ux-design/002/banner.jpg"
+mediaType: "carousell-image"
+mediaSrcList:
+    - "/ui-ux-design/002/media/ui/001.jpg"
+    - "/ui-ux-design/002/media/ui/002.jpg"
+    - "/ui-ux-design/002/media/ui/003.jpg"
+    - "/ui-ux-design/002/media/ui/004.jpg"
+    - "/ui-ux-design/002/media/ui/005.jpg"
+    - "/ui-ux-design/002/media/ui/006.jpg"
+    - "/ui-ux-design/002/media/ui/007.jpg"
+    - "/ui-ux-design/002/media/ui/008.jpg"
 ---
 
 This is an e-board game designed for the new employees of the HongKong Land Limited company (HKL in short) to know more about their company in a more interesting way. When the players walk through the game board, they may need to watch some videos related to their company and answer some questions about that.
 
 ## Character Design
 
-<img style="float: right;"  src="/ui-ux-design/hong-kong-land-limited-e-board-game-project-002-orange-guy.png" alt="Building" width="30%">
+<img style="float: right;"  src="/ui-ux-design/002/media/characters-02.png" alt="Building" width="30%">
 
 HKL had a concept of using box-man as the character of the e-board game. At the same time, they would like to present ‘sustainable development’ as their principle of development. I suggested making the texture of the box-man like carton, which is recyclable, to include this concept.
 
 HKL also wished the characters to be ‘joyful’, ‘energetic’ and ‘colourful’ to present the six-core values (Honesty and Integrity, Open Communication, Teamwork,  Smart Innovation, Excellence and Long-term) of their company. That’s why each of them is in different colours in a bright tone. Also, the objects holding in their hands echo the core values that they represent. The characters are either smiling or look curious to give a positive impression.
 
-<img src="/ui-ux-design/hong-kong-land-limited-e-board-game-project-003-building.png" alt="Building" width="100%">
+<img src="/ui-ux-design/002/media/characters-01.png" alt="Building" width="120%">
 
+<img style="float: right;"  src="/ui-ux-design/002/media/characters-03.gif" alt="Building" width="30%">
 
 The box-man idea and the six core values were provided by HKL and the protocol of the characters was designed by my colleague. I was responsible for the graphic design, including colouring and texturing of the characters as well as animating the characters. Adobe Illustrator and After Effect were used in the process of character design.
 
