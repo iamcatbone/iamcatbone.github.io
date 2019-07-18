@@ -6,8 +6,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 
 const SingleImg = styled.img`
   width: 86%;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 7%;
+  margin-right: 7%;
 `
 
 const CarousellWrapper = styled.div`
