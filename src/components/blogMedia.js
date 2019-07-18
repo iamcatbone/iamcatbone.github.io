@@ -1,40 +1,57 @@
+import Typography from "@material-ui/core/Typography"
 import React from "react"
-import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from "react-responsive-carousel"
-
 import styled from "styled-components"
+import "react-responsive-carousel/lib/styles/carousel.min.css"
 
-const WorkCard = ({ mediaType, mediaSrc, mediaSrcList, title }) => (
+const SingleImg = styled.img`
+  width: 86%;
+  margin-left: 12%;
+  margin-right: 12%;
+`
+
+const CarousellWrapper = styled.div`
+  width: ${props => (props.size === "small" ? "50%" : "70%")};
+  margin-left: ${props => (props.size === "small" ? "25%" : "15%")};
+  margin-right: ${props => (props.size === "small" ? "25%" : "15%")};
+`
+
+const YoutubeTitle = styled(Typography)`
+  font-weight: bold !important;
+`
+
+const WorkCard = ({
+  mediaType,
+  mediaSrc,
+  mediaSrcList,
+  mediaSrcSize,
+  title,
+}) => (
   <div>
-    {mediaType === "single-image" && (
-      <img
-        style={{
-          width: "86%",
-          marginLeft: "12%",
-          marginRight: "12%",
-        }}
-        src={mediaSrc}
-        alt={title}
-      />
-    )}
+    {mediaType === "single-image" && <SingleImg src={mediaSrc} alt={title} />}
     {mediaType === "carousell-image" && (
-      <div
-        style={{
-          width: "70%",
-          marginLeft: "15%",
-          marginRight: "15%",
-        }}
-      >
-        <Carousel showStatus={false}>
-          {mediaSrcList.map((src, index) => (
-            <img
-              style={{ background: "#ffffff" }}
-              src={src}
-              alt={`${title}-${index}`}
-              key={index}
-            />
-          ))}
-        </Carousel>
+      <div>
+        <YoutubeTitle variant="h5" gutterBottom>
+          {"Slide show"}
+        </YoutubeTitle>
+        <br />
+        <CarousellWrapper size={mediaSrcSize}>
+          <Carousel
+            showStatus={false}
+            dynamicHeight={true}
+            autoPlay={true}
+            infiniteLoop={true}
+          >
+            {mediaSrcList.map((src, index) => (
+              <img
+                style={{ background: "#ffffff" }}
+                src={src}
+                alt={`${title}-${index}`}
+                key={index}
+              />
+            ))}
+          </Carousel>
+        </CarousellWrapper>
       </div>
     )}
   </div>

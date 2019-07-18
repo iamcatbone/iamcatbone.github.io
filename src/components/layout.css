@@ -621,3 +621,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.blog-post-content > h2 {
+  font-size: 1.5rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0em;
+}

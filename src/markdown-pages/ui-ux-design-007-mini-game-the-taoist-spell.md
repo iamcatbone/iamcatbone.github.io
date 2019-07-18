@@ -7,7 +7,7 @@ mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/007/media/001.png"
     - "/ui-ux-design/007/media/002.png"
-    - "/ui-ux-design/007/media/003.png"
+    - "/ui-ux-design/007/media/003.jpg"
 ---
 
 This is also a supplementary mini-game for primary students to practise typing. This game is an advanced version that it recognises symbols and different letter cases. The editor suggested a background story of characters being controlled by the ghosts and the ghosts were bringing them away. We have to save them by attacking the ghosts with Taoist spells.
