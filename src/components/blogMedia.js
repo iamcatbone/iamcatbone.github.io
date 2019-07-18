@@ -11,9 +11,9 @@ const SingleImg = styled.img`
 `
 
 const CarousellWrapper = styled.div`
-  width: ${props => (props.size === "small" ? "50%" : "70%")};
-  margin-left: ${props => (props.size === "small" ? "25%" : "15%")};
-  margin-right: ${props => (props.size === "small" ? "25%" : "15%")};
+  width: ${props => (props.size === "small" ? "20%" : "70%")};
+  margin-left: ${props => (props.size === "small" ? "40%" : "15%")};
+  margin-right: ${props => (props.size === "small" ? "40%" : "15%")};
 `
 
 const YoutubeTitle = styled(Typography)`

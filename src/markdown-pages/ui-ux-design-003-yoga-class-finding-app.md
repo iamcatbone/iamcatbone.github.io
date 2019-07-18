@@ -23,6 +23,6 @@ Besides Adobe Xd, many people use the Sketch App as a UI design tool. The UI des
 
 <div style="margin:0px auto; text-align:center;">
     <a href="https://www.youtube.com/watch?v=IstWwDJNYl8">
-        <img src="/graphic-design/004/cover.png" alt="Youtube Video" width="60%">
+        <img src="/ui-ux-design/003/youtube.jpg" alt="Youtube Video" width="60%">
     </a>
 </div>

@@ -33,7 +33,7 @@ The box-man idea and the six core values were provided by HKL and the protocol o
 
 ## Game Board Design
 
-HKL had a concept of using box-man as the character of the e-board game. At the same time, they would like to present ‘sustainable development’ as their principle of development. I suggested making the texture of the box-man like carton, which is recyclable, to include this concept.
+HKL requested an about 120-step game board with their properties, for example, the Exchange square, the Forum, Chater house etc. Ten of the properties are in Hong Kong while two of them are located in Singapore and Shanghai and, thus, they are located on a different island on the game board. The lower island is in H-liked shape to symbolize Hong Kong and HKL, their company name.
 
 Bushes, trees, people, vehicles, Ferris wheel, traffic lights, ships, water fountain etc. were added to make the city look more lively. Bushes that form the words ‘HKL’ were put on each island to indicate the game belongs to and is related to HKL.
 
@@ -42,12 +42,6 @@ The whole game board was designed by me and modifications were made upon request
 <img src="/ui-ux-design/hong-kong-land-limited-e-board-game-project-003-building.png" alt="Building" width="100%">
 
 ## User interface (UI) Design
-
-Bushes, trees, people, vehicles, Ferris wheel, traffic lights, ships, water fountain etc. were added to make the city look more lively. Bushes that form the words ‘HKL’ were put on each island to indicate the game belongs to and is related to HKL.
-
-The whole game board was designed by me and modifications were made upon requests from HKL. The box-man idea and the six core values were provided by HKL and the protocol of the characters was designed by my colleague. I was responsible for the graphic design, including colouring and texturing of the characters as well as animating the characters. Adobe Illustrator and After Effect were used in the process of character design. HKL had a concept of using box-man as the character of the e-board game. At the same time, they would like to present ‘sustainable development’ as their principle of development. I suggested making the texture of the box-man like carton, which is recyclable, to include this concept.
-
-HKL had a concept of using box-man as the character of the e-board game. At the same time, they would like to present ‘sustainable development’ as their principle of development. I suggested making the texture of the box-man like carton, which is recyclable, to include this concept.
 
 The primary and secondary colour of the UI design are dark blue and orange respectively. Buttons that do not require special attention before clicking are in dark blue (e.g. language, MC options, question level, submit etc.) Buttons that require special attention, for example, save and exit, next and the chosen option of MC question, are in orange. The more eye-catching colour was used to remind the users to save before exit, click to the next step and which option they have chosen.
 

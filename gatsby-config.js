@@ -47,7 +47,7 @@ module.exports = {
         title: "Designs",
         desc:
           "I had experiences in working as graphics and UI designer. Have a look on my works!",
-        cover: "thor.jpg",
+        cover: "/ui-ux-design/002/cover.png",
         buttons: [
           {
             title: "UI UX Design works",
@@ -63,7 +63,7 @@ module.exports = {
         title: "Illustrations",
         desc:
           "Illustration is a media to express myself. Have a look on my works!",
-        cover: "thor.jpg",
+        cover: "/illustrations/002/cover.png",
         buttons: [
           {
             title: "My Illustrations",
@@ -75,7 +75,7 @@ module.exports = {
         title: "Sketches",
         desc:
           "I enjoy sketching the details of different objects/animals. Have a look on my works!",
-        cover: "thor.jpg",
+        cover: "/sketches/004/cover.png",
         buttons: [
           {
             title: "My Sketches",

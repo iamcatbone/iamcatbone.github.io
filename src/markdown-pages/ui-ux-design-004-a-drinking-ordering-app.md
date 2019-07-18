@@ -29,6 +29,6 @@ I understand that price is crucial when making a purchase decision, thus, I adde
 
 <div style="margin:0px auto; text-align:center;">
     <a href="https://www.youtube.com/watch?v=q2XzTIiyTGw">
-        <img src="/graphic-design/004/cover.png" alt="Youtube Video" width="60%">
+        <img src="/ui-ux-design/004/youtube.jpg" alt="Youtube Video" width="60%">
     </a>
 </div>

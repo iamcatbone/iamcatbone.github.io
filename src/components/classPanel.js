@@ -47,7 +47,11 @@ const ClassPanel = ({ index, title, desc, cover, buttons }) => (
   <PanelContainer index={index}>
     <Grid container spacing={3}>
       <Grid item xs={6}>
-        <div>
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
           <img src={cover} alt="cover" />
         </div>
       </Grid>

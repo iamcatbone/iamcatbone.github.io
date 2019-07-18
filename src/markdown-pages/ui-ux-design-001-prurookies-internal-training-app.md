@@ -6,7 +6,6 @@ banner: "/ui-ux-design/001/banner.jpg"
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/001/media/001.jpg"
-    - "/ui-ux-design/001/media/002.jpg"
     - "/ui-ux-design/001/media/003.jpg"
     - "/ui-ux-design/001/media/004.jpg"
     - "/ui-ux-design/001/media/005.jpg"
