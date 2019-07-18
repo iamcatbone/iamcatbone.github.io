@@ -31,14 +31,24 @@ module.exports = {
         icon: `src/images/portfolio-logo.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Nunito Sans`,
+          `sans-serif\:300,400,400i,700`, // you can also specify font weights and styles
+        ],
+        display: "swap",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
   siteMetadata: {
-    title: `Margaret Wong`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Margaret Wong's Portfolio`,
+    description: `A ui-ux designer's personal portfolio and website.`,
+    author: `Margaret Wong`,
     headline: `Every one has a dream.`,
     banner: `src/images/banner.png`,
     routes: [

@@ -31,7 +31,7 @@ const WorkCard = ({
     {mediaType === "single-image" && <SingleImg src={mediaSrc} alt={title} />}
     {mediaType === "carousell-image" && (
       <div>
-        <YoutubeTitle variant="h5" gutterBottom>
+        <YoutubeTitle variant="h6" gutterBottom>
           {"Slide show"}
         </YoutubeTitle>
         <br />

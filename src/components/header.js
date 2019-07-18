@@ -9,7 +9,7 @@ import styled from "styled-components"
 import HeaderMenu from "../components/headerMenu"
 
 const AppToolbar = styled(Toolbar)`
-  height: 110px;
+  height: 70px;
   background-color: white;
 `
 
@@ -21,6 +21,7 @@ const AppToolbarIcon = styled.div`
 
 const AppToolbarIconImage = styled.img`
   margin-bottom: 0 !important;
+  height: 80px;
 `
 
 const MenuButtonWrapper = styled.div`
@@ -28,7 +29,7 @@ const MenuButtonWrapper = styled.div`
 `
 
 const Header = ({ menus }) => (
-  <AppBar position="static">
+  <AppBar style={{ paddingRight: "0px !important" }} position="fixed">
     <Card>
       <AppToolbar>
         <AppToolbarIcon>

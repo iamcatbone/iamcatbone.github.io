@@ -1,25 +1,18 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
-import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import styled from "styled-components"
 
+import CssBaseline from "@material-ui/core/CssBaseline"
 import Typography from "@material-ui/core/Typography"
 
 import Header from "./header"
 import "./layout.css"
 
 const Footer = styled.footer`
-  height: 89px;
+  height: 120px;
   text-align: center;
-  padding-top: 29px;
+  padding-top: 49px;
   text-transform: none;
 `
 
@@ -43,26 +36,23 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <CssBaseline />
       <Header menus={data.site.siteMetadata.routes} />
       <div
         style={{
           margin: `0 auto`,
-          paddingTop: 0,
+          paddingTop: 70,
         }}
       >
         <main>{children}</main>
         <Footer>
-          <Typography variant="h6">
+          <Typography variant="subtitle1">
             {new Date().getFullYear()} Margaret Wong. All rights reserved.
           </Typography>
         </Footer>
       </div>
     </>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout

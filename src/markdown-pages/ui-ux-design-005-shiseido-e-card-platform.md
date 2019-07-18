@@ -14,16 +14,20 @@ mediaSrcList:
     - "/ui-ux-design/005/media/007.jpg"
 ---
 
-My company worked for Shiseido to build an e-card system for the internal greeting. My role was to work on the visual design part.
+My company worked for Shiseido to build an e-card system for the internal greeting. My role was to work on the visual design part of the GIF e-cards and the UI design of the platform.
 
-
-<img style="margin-left: 20px; float: right;"  src="/ui-ux-design/005/media/ecard.gif" alt="e-card" width="40%">
 
 ## GIF e-Card Design
 
-Together with the e-card system, I was responsible for designing the gif e-card as well. Shiseido had requested for e-cards for a birthday, anniversary or all-purpose in Japanese style or using cosmetics as the theme.
+‘Shiseido had requested for e-cards of the themes birthday, anniversary or all-purpose. They would like the cards to be coherent with their brand that Japanese style or cosmetic elements were used in the design of the e-cards.
 
 I was responsible for the graphic design and creation of motion graphics with the use of Adobe Illustrator and After Effects.
+
+<div style="margin:0px auto; text-align:center;">
+    <img style="padding: 15px;" src="/ui-ux-design/005/media/ecard.gif" alt="e-card" width="30%">
+    <img style="padding: 15px;" src="/ui-ux-design/005/media/ecard.gif" alt="e-card" width="30%">
+    <img style="padding: 15px;" src="/ui-ux-design/005/media/ecard.gif" alt="e-card" width="30%">
+</div>
 
 ## UI Design
 

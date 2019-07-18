@@ -25,7 +25,7 @@ In the Starbuck app, the users have to pass through the description page of the 
 
 I understand that price is crucial when making a purchase decision, thus, I added a snack bar at the bottom to tell users how much their beverage will cost according to their chosen options.
 
-## Youtube Video
+### Youtube Video
 
 <div style="margin:0px auto; text-align:center;">
     <a href="https://www.youtube.com/watch?v=q2XzTIiyTGw">

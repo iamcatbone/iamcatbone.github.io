@@ -5,7 +5,7 @@ import React from "react"
 import styled from "styled-components"
 
 const MenuButton = styled(Button)`
-  height: 110px;
+  height: 70px;
   padding-left: 15px !important;
   padding-right: 15px !important;
 `

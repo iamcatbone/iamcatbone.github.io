@@ -19,7 +19,7 @@ This is an e-board game designed for the new employees of the HongKong Land Limi
 
 ## Character Design
 
-<img style="float: right;"  src="/ui-ux-design/002/media/characters-02.png" alt="Building" width="30%">
+<img style="float: right; margin-left: 30px;"  src="/ui-ux-design/002/media/characters-02.png" alt="Building" width="20%">
 
 HKL had a concept of using box-man as the character of the e-board game. At the same time, they would like to present ‘sustainable development’ as their principle of development. I suggested making the texture of the box-man like carton, which is recyclable, to include this concept.
 
