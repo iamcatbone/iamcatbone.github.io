@@ -1,10 +1,11 @@
+import React from "react"
+import { useStaticQuery, graphql, Link } from "gatsby"
+import Img from "gatsby-image"
+import styled from "styled-components"
+
 import AppBar from "@material-ui/core/AppBar"
 import Card from "@material-ui/core/Card"
 import Toolbar from "@material-ui/core/Toolbar"
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import styled from "styled-components"
 
 import HeaderMenu from "../components/headerMenu"
 
@@ -19,40 +20,40 @@ const AppToolbarIcon = styled.div`
   text-decoration: none;
 `
 
-const AppToolbarIconImage = styled.img`
-  margin-bottom: 0 !important;
-  height: 80px;
-`
-
 const MenuButtonWrapper = styled.div`
   margin-right: 55px;
 `
 
-const Header = ({ menus }) => (
-  <AppBar style={{ paddingRight: "0px !important" }} position="fixed">
-    <Card>
-      <AppToolbar>
-        <AppToolbarIcon>
-          <Link to="/">
-            <AppToolbarIconImage src="/header.png" alt="home" />
-          </Link>
-        </AppToolbarIcon>
-        <MenuButtonWrapper>
-          {menus.map((menu, index) => (
-            <HeaderMenu key={index} {...menu} />
-          ))}
-        </MenuButtonWrapper>
-      </AppToolbar>
-    </Card>
-  </AppBar>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+const Header = ({ menus }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      placeholderImage: file(relativePath: { eq: "header.png" }) {
+        childImageSharp {
+          fixed(height: 80, width: 214) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `)
+  return (
+    <AppBar style={{ paddingRight: "0px !important" }} position="fixed">
+      <Card>
+        <AppToolbar>
+          <AppToolbarIcon>
+            <Link to="/">
+              <Img fixed={data.placeholderImage.childImageSharp.fixed} />
+            </Link>
+          </AppToolbarIcon>
+          <MenuButtonWrapper>
+            {menus.map((menu, index) => (
+              <HeaderMenu key={index} {...menu} />
+            ))}
+          </MenuButtonWrapper>
+        </AppToolbar>
+      </Card>
+    </AppBar>
+  )
 }
 
 export default Header

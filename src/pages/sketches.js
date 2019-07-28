@@ -5,28 +5,44 @@ import ListingPageBase from "../components/listingPageBase"
 
 const Page = () => {
   const data = useStaticQuery(graphql`
-    query SketchesListingQuery {
+    query SketchListingQuery {
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "sketches" } } }
+        sort: { order: ASC, fields: [frontmatter___id] }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+              path
+              date
+              thumbnail
+            }
+          }
+        }
+      }
       site {
         siteMetadata {
-          listing {
-            sketches {
-              headline
+          routes {
+            buttons {
+              title
+              path
               desc
-              works {
-                title
-                time
-                thumbnail
-                path
-              }
             }
           }
         }
       }
     }
   `)
-
-  const { headline, desc, works } = data.site.siteMetadata.listing.sketches
-  return <ListingPageBase headline={headline} desc={desc} works={works} />
+  const works = data.allMarkdownRemark.edges.map(
+    ({ node: { frontmatter } }) => ({
+      ...frontmatter,
+    })
+  )
+  const { title, desc } = data.site.siteMetadata.routes
+    .flatMap(item => item.buttons)
+    .find(button => button.path === "/sketches")
+  return <ListingPageBase headline={title} desc={desc} works={works} />
 }
 
 export default Page

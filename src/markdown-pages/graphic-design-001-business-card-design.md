@@ -1,7 +1,15 @@
 ---
-path: "/graphic-design/business-card-design"
+# Portfolio category
+category: "graphic-design"
+
+# Portfolio context
 title: "Business Card Design"
+id: "001"
 date: "June 2019"
+path: "/graphic-design/business-card-design"
+thumbnail: "/graphic-design/001/cover.png"
+
+# Portfolio media
 mediaType: "single-image"
 mediaSrc: "/graphic-design/001/media.jpg"
 ---

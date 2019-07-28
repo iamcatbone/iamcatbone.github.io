@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/ui-of-login-page-for-fsee-limited"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "UI of Login Page for FSEE Limited"
+id: "006"
 date: "November 2018"
+path: "/ui-ux-design/ui-of-login-page-for-fsee-limited"
+thumbnail: "/ui-ux-design/006/cover.png"
 banner: "/ui-ux-design/006/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/006/media/001.jpg"

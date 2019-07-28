@@ -1,7 +1,15 @@
 ---
-path: "/graphic-design/a-wallpaper-for-iphone-6plus"
+# Portfolio category
+category: "graphic-design"
+
+# Portfolio context
 title: "A wallpaper for iphone 6plus"
+id: "005"
+path: "/graphic-design/a-wallpaper-for-iphone-6plus"
 date: "May 2017"
+thumbnail: "/graphic-design/005/cover.png"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/graphic-design/005/media/001.png"

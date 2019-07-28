@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/shiseido-e-card-platform"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "Shiseido E-card platform"
+id: "005"
 date: "November 2018"
+path: "/ui-ux-design/shiseido-e-card-platform"
+thumbnail: "/ui-ux-design/005/cover.png"
 banner: "/ui-ux-design/005/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/005/media/001.jpg"

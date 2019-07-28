@@ -23,7 +23,7 @@ const WorkCardLink = styled(Link)`
   text-decoration: none !important;
 `
 
-const WorkCard = ({ title, time, thumbnail, path }) => (
+const WorkCard = ({ title, date, thumbnail, path }) => (
   <Card>
     <WorkCardLink to={path}>
       <CardActionArea>
@@ -33,7 +33,7 @@ const WorkCard = ({ title, time, thumbnail, path }) => (
             {title}
           </WorkCardTitle>
           <WorkCardDesc variant="body2" color="textSecondary" component="p">
-            {time}
+            {date}
           </WorkCardDesc>
         </CardContent>
       </CardActionArea>

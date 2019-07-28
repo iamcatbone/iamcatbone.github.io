@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/yoga-class-finding-app"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "Yoga Class Finding App"
+id: "003"
 date: "January 2019"
+path: "/ui-ux-design/yoga-class-finding-app"
+thumbnail: "/ui-ux-design/003/cover.png"
 banner: "/ui-ux-design/003/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/003/media/001.png"

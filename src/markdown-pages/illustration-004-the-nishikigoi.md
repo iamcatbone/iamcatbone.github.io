@@ -1,7 +1,15 @@
 ---
-path: "/illustrations/the-nishikigoi"
+# Portfolio category
+category: "illustrations"
+
+# Portfolio context
 title: "The Nishikigoi"
+id: "004"
 date: "January 2017"
+path: "/illustrations/the-nishikigoi"
+thumbnail: "/illustrations/004/cover.png"
+
+# Portfolio media
 mediaType: "single-image"
 mediaSrc: "/illustrations/004/media.jpg"
 ---

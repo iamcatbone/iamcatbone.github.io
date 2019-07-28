@@ -1,7 +1,15 @@
 ---
-path: "/illustrations/a-little-raccoon-and-the-color-pencils"
+# Portfolio category
+category: "illustrations"
+
+# Portfolio context
 title: "Business Card Design"
+id: "002"
 date: "September 2018"
+path: "/illustrations/a-little-raccoon-and-the-color-pencils"
+thumbnail: "/illustrations/002/cover.png"
+
+# Portfolio media
 mediaType: "single-image"
 mediaSrc: "/illustrations/002/media.png"
 ---

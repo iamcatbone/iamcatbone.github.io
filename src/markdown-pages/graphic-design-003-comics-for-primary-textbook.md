@@ -1,7 +1,13 @@
 ---
-path: "/graphic-design/comics-for-primary-textbook"
+# Portfolio category
+category: "graphic-design"
+
+# Portfolio context
 title: "Comics for Primary Textbook"
+id: "003"
 date: "September 2018"
+path: "/graphic-design/comics-for-primary-textbook"
+thumbnail: "/graphic-design/003/cover.png"
 ---
 
 ## A Comic about Copyright

@@ -6,27 +6,43 @@ import ListingPageBase from "../components/listingPageBase"
 const Page = () => {
   const data = useStaticQuery(graphql`
     query UiUxDesignListingQuery {
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "ui-ux-design" } } }
+        sort: { order: ASC, fields: [frontmatter___id] }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+              path
+              date
+              thumbnail
+            }
+          }
+        }
+      }
       site {
         siteMetadata {
-          listing {
-            uiUxDesign {
-              headline
+          routes {
+            buttons {
+              title
+              path
               desc
-              works {
-                title
-                time
-                thumbnail
-                path
-              }
             }
           }
         }
       }
     }
   `)
-
-  const { headline, desc, works } = data.site.siteMetadata.listing.uiUxDesign
-  return <ListingPageBase headline={headline} desc={desc} works={works} />
+  const works = data.allMarkdownRemark.edges.map(
+    ({ node: { frontmatter } }) => ({
+      ...frontmatter,
+    })
+  )
+  const { title, desc } = data.site.siteMetadata.routes
+    .flatMap(item => item.buttons)
+    .find(button => button.path === "/ui-ux-design")
+  return <ListingPageBase headline={title} desc={desc} works={works} />
 }
 
 export default Page

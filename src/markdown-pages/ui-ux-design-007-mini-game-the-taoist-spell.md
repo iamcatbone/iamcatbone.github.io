@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/mini-game-ui-the-taoist-spell"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "Mini-Game UI: The Taoist Spell"
+id: "007"
 date: "June 2018"
+path: "/ui-ux-design/mini-game-ui-the-taoist-spell"
+thumbnail: "/ui-ux-design/007/cover.png"
 banner: "/ui-ux-design/007/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/007/media/001.png"

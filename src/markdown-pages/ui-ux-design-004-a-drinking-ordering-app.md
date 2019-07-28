@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/a-drinking-ordering-app"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "A Drink Ordering App"
+id: "004"
 date: "January 2019"
+path: "/ui-ux-design/a-drinking-ordering-app"
+thumbnail: "/ui-ux-design/004/cover.png"
 banner: "/ui-ux-design/004/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/004/media/001.png"

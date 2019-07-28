@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/hong-kong-land-limited-e-board-game-project"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "Hong Kong Land e-Board Game Project"
+id: "002"
 date: "January - May 2019"
+path: "/ui-ux-design/hong-kong-land-limited-e-board-game-project"
+thumbnail: "/ui-ux-design/002/cover.png"
 banner: "/ui-ux-design/002/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/002/media/ui/001.jpg"

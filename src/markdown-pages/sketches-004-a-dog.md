@@ -1,7 +1,15 @@
 ---
-path: "/sketches/a-dog"
+# Portfolio category
+category: "sketches"
+
+# Portfolio context
 title: "A Dog"
+id: "001"
 date: "2015"
+path: "/sketches/a-dog"
+thumbnail: "/sketches/004/cover.png"
+
+# Portfolio media
 mediaType: "single-image"
 mediaSrc: "/sketches/004/media.jpg"
 ---

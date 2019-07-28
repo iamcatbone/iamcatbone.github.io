@@ -1,7 +1,15 @@
 ---
-path: "/sketches/a-pomegranate"
+# Portfolio category
+category: "sketches"
+
+# Portfolio context
 title: "A Pomegranate"
+id: "003"
 date: "2017"
+path: "/sketches/a-pomegranate"
+thumbnail: "/sketches/001/cover.png"
+
+# Portfolio media
 mediaType: "single-image"
 mediaSrc: "/sketches/001/media.jpg"
 ---

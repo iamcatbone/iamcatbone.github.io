@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/mini-game-ui-shaolin-kung-fu"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "Mini-Game UI: Shaolin Kung Fu"
+id: "008"
 date: "May 2018"
+path: "/ui-ux-design/mini-game-ui-shaolin-kung-fu"
+thumbnail: "/ui-ux-design/008/cover.png"
 banner: "/ui-ux-design/008/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/008/media/001.png"

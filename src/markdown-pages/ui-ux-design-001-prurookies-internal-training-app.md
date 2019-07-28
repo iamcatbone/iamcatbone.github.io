@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/prurookies-internal-training-app"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "PRURookies Training App"
+id: "001"
 date: "April - June 2019"
+path: "/ui-ux-design/prurookies-internal-training-app"
+thumbnail: "/ui-ux-design/001/cover.png"
 banner: "/ui-ux-design/001/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/001/media/001.jpg"

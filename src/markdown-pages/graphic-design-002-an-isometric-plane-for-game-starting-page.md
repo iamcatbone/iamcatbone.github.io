@@ -1,7 +1,15 @@
 ---
-path: "/graphic-design/an-isometric-plane-for-game-starting-page"
+# Portfolio category
+category: "graphic-design"
+
+# Portfolio context
 title: "An Isometric Plane for Game Starting Page"
+id: "002"
 date: "November 2018"
+path: "/graphic-design/an-isometric-plane-for-game-starting-page"
+thumbnail: "/graphic-design/002/cover.png"
+
+# Portfolio media
 mediaType: "single-image"
 mediaSrc: "/graphic-design/002/media.png"
 ---

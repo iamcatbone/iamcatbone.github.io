@@ -1,7 +1,15 @@
 ---
-path: "/illustrations/telegram-stickers-of-identity-v-characters"
+# Portfolio category
+category: "illustrations"
+
+# Portfolio context
 title: "Telegram Stickers of Identity V Characters"
+id: "005"
 date: "June 2019"
+path: "/illustrations/telegram-stickers-of-identity-v-characters"
+thumbnail: "/illustrations/005/cover.png"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/illustrations/005/media/001.png"

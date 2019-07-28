@@ -1,7 +1,15 @@
 ---
-path: "/sketches/an-eagle"
+# Portfolio category
+category: "sketches"
+
+# Portfolio context
 title: "An Eagle"
+id: "002"
 date: "2017"
+path: "/sketches/an-eagle"
+thumbnail: "/sketches/003/cover.png"
+
+# Portfolio media
 mediaType: "single-image"
 mediaSrc: "/sketches/003/media.jpg"
 ---

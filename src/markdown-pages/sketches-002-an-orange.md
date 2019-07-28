@@ -1,7 +1,15 @@
 ---
-path: "/sketches/an-orange"
+# Portfolio category
+category: "sketches"
+
+# Portfolio context
 title: "An Orange"
+id: "004"
 date: "2017"
+path: "/sketches/an-orange"
+thumbnail: "/sketches/002/cover.png"
+
+# Portfolio media
 mediaType: "single-image"
 mediaSrc: "/sketches/002/media.jpg"
 ---

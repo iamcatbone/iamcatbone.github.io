@@ -1,7 +1,15 @@
 ---
-path: "/illustrations/a-colorful-cat"
+# Portfolio category
+category: "illustrations"
+
+# Portfolio context
 title: "A Colorful Cat"
+id: "001"
 date: "June 2019"
+path: "/illustrations/a-colorful-cat"
+thumbnail: "/illustrations/001/cover.png"
+
+# Portfolio media
 mediaType: "single-image"
 mediaSrc: "/illustrations/001/media.png"
 ---

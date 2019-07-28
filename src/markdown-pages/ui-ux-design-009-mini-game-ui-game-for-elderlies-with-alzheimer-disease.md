@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/mini-game-ui-game-for-elderlies-with-alzheimer-disease"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "Mini-Game UI: Game for Elderlies with Alzheimer's Disease"
+id: "009"
 date: "August 2017"
+path: "/ui-ux-design/mini-game-ui-game-for-elderlies-with-alzheimer-disease"
+thumbnail: "/ui-ux-design/009/cover.png"
 banner: "/ui-ux-design/009/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/009/media/001.png"

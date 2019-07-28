@@ -1,7 +1,13 @@
 ---
-path: "/graphic-design/an-animation-to-introduce-what-is-internet"
+# Portfolio category
+category: "graphic-design"
+
+# Portfolio context
 title: "An Animation to Introduce What is Internet"
+id: "004"
+path: "/graphic-design/an-animation-to-introduce-what-is-internet"
 date: "April 2018"
+thumbnail: "/graphic-design/004/cover.png"
 ---
 
 This is a supplementary animation of a textbook to introduce the Internet to primary students. Web pages are compared to book pages, and websites are compared to books. URL is like the magic door in Doraemon which can bring us to anywhere we wished in the Internet world. Finally, there is a reminder to students to be aware of different harmful contents on the Internet.

@@ -1,8 +1,16 @@
 ---
-path: "/ui-ux-design/mini-game-ui-game-computer-rangers"
+# Portfolio category
+category: "ui-ux-design"
+
+# Portfolio context
 title: "Mini-Game UI: Computer Rangers"
+id: "010"
 date: "May 2019"
+path: "/ui-ux-design/mini-game-ui-game-computer-rangers"
+thumbnail: "/ui-ux-design/010/cover.png"
 banner: "/ui-ux-design/010/banner.jpg"
+
+# Portfolio media
 mediaType: "carousell-image"
 mediaSrcList:
     - "/ui-ux-design/010/media/001.jpg"
