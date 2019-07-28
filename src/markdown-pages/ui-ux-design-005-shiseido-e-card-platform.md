@@ -24,9 +24,9 @@ My company worked for Shiseido to build an e-card system for the internal greeti
 I was responsible for the graphic design and creation of motion graphics with the use of Adobe Illustrator and After Effects.
 
 <div style="margin:0px auto; text-align:center;">
-    <img style="padding: 15px;" src="/ui-ux-design/005/media/ecard.gif" alt="e-card" width="30%">
-    <img style="padding: 15px;" src="/ui-ux-design/005/media/ecard.gif" alt="e-card" width="30%">
-    <img style="padding: 15px;" src="/ui-ux-design/005/media/ecard.gif" alt="e-card" width="30%">
+    <img style="padding: 15px;" src="/ui-ux-design/005/media/ecard-001.gif" alt="e-card" width="30%">
+    <img style="padding: 15px;" src="/ui-ux-design/005/media/ecard-002.gif" alt="e-card" width="30%">
+    <img style="padding: 15px;" src="/ui-ux-design/005/media/ecard-003.gif" alt="e-card" width="30%">
 </div>
 
 ## UI Design
