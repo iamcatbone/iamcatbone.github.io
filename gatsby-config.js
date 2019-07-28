@@ -115,53 +115,50 @@ module.exports = {
           {
             title: "Yoga Class Finding App",
             time: "January 2019",
-            thumbnail: "/ui-ux-design/uiux-design-work-yoga-app-display-03.png",
+            thumbnail: "/ui-ux-design/003/cover.png",
             path: "/ui-ux-design/yoga-class-finding-app",
           },
           {
             title: "Drink Ordering App",
             time: "January 2019",
-            thumbnail:
-              "/ui-ux-design/uiux-design-work-drink-ordering-display-01.png",
+            thumbnail: "/ui-ux-design/004/cover.png",
             path: "/ui-ux-design/a-drinking-ordering-app",
           },
           {
             title: "Shiseido E-card platform",
             time: "November 2018",
-            thumbnail: "/ui-ux-design/uiux-design-work-shiseido-e-card-02.png",
+            thumbnail: "/ui-ux-design/005/cover.png",
             path: "/ui-ux-design/shiseido-e-card-platform",
           },
           {
             title: "UI of Login Page for FSEE Limited",
             time: "November 2018",
-            thumbnail: "/ui-ux-design/uiux-design-work-2-pages-with-bg.png",
+            thumbnail: "/ui-ux-design/006/cover.png",
             path: "/ui-ux-design/ui-of-login-page-for-fsee-limited",
           },
           {
             title: "Mini-Game UI: The Taoist Spell",
             time: "June 2018",
-            thumbnail: "/ui-ux-design/uiux-design-work-spell.png",
+            thumbnail: "/ui-ux-design/007/cover.png",
             path: "/ui-ux-design/mini-game-ui-the-taoist-spell",
           },
           {
             title: "Mini-Game UI: Shaolin Kung Fu",
             time: "May 2018",
-            thumbnail:
-              "/ui-ux-design/uiux-design-work-shaolinkungfu-display2.png",
+            thumbnail: "/ui-ux-design/008/cover.png",
             path: "/ui-ux-design/mini-game-ui-shaolin-kung-fu",
           },
           {
             title: "Mini-Game UI: Game for Elderlies with Alzheimer's Disease",
             time: "August 2017",
-            thumbnail: "/ui-ux-design/uiux-design-work-mindvividui.png",
+            thumbnail: "/ui-ux-design/009/cover.png",
             path:
               "/ui-ux-design/mini-game-ui-game-for-elderlies-with-alzheimer-disease",
           },
           {
             title: "Mini-Game UI: Computer Rangers",
             time: "May 2019",
-            thumbnail:
-              "/ui-ux-design/uiux-design-work-computer-rangerdemo-3.png",
+            thumbnail: "/ui-ux-design/010/cover.png",
             path: "/ui-ux-design/mini-game-ui-game-computer-rangers",
           },
         ],
